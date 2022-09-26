@@ -7,7 +7,7 @@ A ROS package that does the same as setting "multi_topic" on a Livox Mid-100 dev
 The Mid-100 is actually a set of calibrated Mid-40 sensors, thus each message corresponds to one device.
 This program figures out which device the message corresponds to, and publishes it in another topic.
 
-## Prerequisits
+## Prerequisites
 
 Install ROS and setup a catkin_ws. 
 Depending on your installation, the **name of ROS distribution** in the next dependencies might change:
